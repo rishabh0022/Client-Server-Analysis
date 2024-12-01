@@ -1,4 +1,4 @@
-# Client-Server Socket Program in C
+# Client-Server Socket Program in C and C++
 
 ## Overview
 This project implements a client-server socket communication using TCP protocol in C, where both client and server run on separate virtual machines (VMs) or containers. The server is designed to handle multiple concurrent clients using multithreading, and the client can initiate multiple concurrent connection requests. CPU pinning is used for performance analysis with the help of the `taskset` command, while the `perf` tool is used to evaluate the performance of various implementations.
